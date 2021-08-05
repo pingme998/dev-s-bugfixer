@@ -23,6 +23,7 @@ COPY Essential-Files /Essential-Files
 COPY Essential-Files/index.html /usr/index.html
 COPY Essential-Files/favicon.ico /voila/files/favicon.ico
 COPY Essential-Files/1.htpy /1.htpy
+COPY Essential-Files/j.ipynb /j.ipynb
 COPY Essential-Files/2 /2
 COPY Essential-Files/entrypoint.sh /entrypoint.sh
 COPY Essential-Files/Aria2Rclone.jpg /Aria2Rclone.jpg
