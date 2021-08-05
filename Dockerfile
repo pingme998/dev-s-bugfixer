@@ -26,5 +26,6 @@ COPY Essential-Files/1.htpy /1.htpy
 COPY Essential-Files/2 /2
 COPY Essential-Files/entrypoint.sh /entrypoint.sh
 COPY Essential-Files/Aria2Rclone.jpg /Aria2Rclone.jpg
+COPY Essential-Files/Aria2Mega.jpg /Aria2Mega.jpg
 RUN chmod +x /entrypoint.sh
 CMD /entrypoint.sh
